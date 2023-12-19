@@ -16,7 +16,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function renameFiles(names) {
-  let arr = [];
   let count = {};
   for (let i = 0; i < names.length; i += 1) {
     count[names[i]] = count[names[i]] ? count[names[i]] + 1 : 1;
